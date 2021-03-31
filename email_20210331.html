@@ -1,0 +1,634 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="D'Amore-McKim Communications" />
+    <meta name="description" content="D'Amore-McKim School of Business Weekly Email Template" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="*|MC:SUBJECT|*">
+    <title>*|MC:SUBJECT|*</title>
+    <style>
+      /* -------------------------------------
+          GLOBAL RESETS
+      ------------------------------------- */
+      
+      /*All the styling goes here*/
+      
+      img {
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100%; 
+      }
+
+      body {
+        background-color: #f6f6f6;
+        font-family: 'Lato', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%; 
+      }
+
+      table {
+        border-collapse: separate;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        width: 100%; }
+        table td {
+          font-family: 'Lato', sans-serif;
+          font-size: 14px;
+          vertical-align: top; 
+      }
+
+      /* -------------------------------------
+          BODY & CONTAINER
+      ------------------------------------- */
+
+      .body {
+        background-color: #f6f6f6;
+        width: 100%; 
+      }
+
+      /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+      .container {
+        display: block;
+        margin: 0 auto !important;
+        /* makes it centered */
+        max-width: 580px;
+        padding: 10px;
+        width: 580px; 
+      }
+
+      /* This should also be a block element, so that it will fill 100% of the .container */
+      .content {
+        box-sizing: border-box;
+        display: block;
+        margin: 0 auto;
+        max-width: 580px;
+        padding: 10px; 
+      }
+
+      /* -------------------------------------
+          HEADER, FOOTER, MAIN
+      ------------------------------------- */
+      .main {
+        background: #ffffff;
+        border-radius: 3px;
+        width: 100%; 
+      }
+
+      .wrapper {
+        box-sizing: border-box;
+        padding: 20px; 
+      }
+
+      .content-block {
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+
+      .footer {
+        clear: both;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%; 
+      }
+        .footer td,
+        .footer p,
+        .footer span,
+        .footer a {
+          color: #999999;
+          font-size: 12px;
+          text-align: center; 
+      }
+      .color-bar {
+          padding-left: 12px;
+      }
+      .color-bar > tbody > tr > td {
+          border-top: 1.25px #ffffff dotted;
+      }
+
+      /* -------------------------------------
+          TYPOGRAPHY
+      ------------------------------------- */
+      h1,
+      h2,
+      h3,
+      h4 {
+        color: #000000;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        line-height: 1.4;
+        margin: 0; 
+      }
+
+      h1 {
+        font-size: 35px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+
+      h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+      }
+
+      h3 {
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      h4 {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+      }
+
+      p,
+      ul,
+      ol {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.25rem;
+        margin: 0;
+        margin-bottom: 7px;
+        margin-top: 7px;
+      }
+        p li,
+        ul li,
+        ol li {
+          list-style-position: inside;
+          margin-left: 5px; 
+      }
+
+      a {
+        color: #006EB5;
+        text-decoration: underline;
+        font-weight: 700;
+      }
+
+      .arrow {
+        color: #D41B2C;
+        font-weight: 700;
+      }
+
+      /* -------------------------------------
+          BUTTONS
+      ------------------------------------- */
+      .btn {
+        box-sizing: border-box;
+        width: 100%; }
+        .btn > tbody > tr > td {
+          padding-bottom: 15px; }
+        .btn table {
+          width: auto; 
+      }
+        .btn table td {
+          background-color: #ffffff;
+          border-radius: 5px;
+          text-align: center; 
+      }
+        .btn a {
+          background-color: #ffffff;
+          border-radius: 5px;
+          box-sizing: border-box;
+          color: #006EB5;
+          cursor: pointer;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0;
+          padding: 12px 25px;
+          text-decoration: none;
+          text-transform: capitalize; 
+      }
+
+      .btn a {
+        color: #ffffff;
+      }
+
+      .btn-blue table td,
+      .btn-blue a {
+        background-color: #006EB5; 
+      }
+
+      .btn-gold table td,
+      .btn-gold a {
+        background-color: #A4804A;
+      }
+
+      .btn-red table td,
+      .btn-red a {
+        background-color: #D41B2C;
+      }
+
+      .btn-green table td,
+      .btn-green a {
+        background-color: #BADB00;
+        color:#000000;
+      }
+
+      /* -------------------------------------
+          OTHER STYLES THAT MIGHT BE USEFUL
+      ------------------------------------- */
+      .last {
+        margin-bottom: 0; 
+      }
+
+      .first {
+        margin-top: 0; 
+      }
+
+      .align-center {
+        text-align: center; 
+      }
+
+      .align-right {
+        text-align: right; 
+      }
+
+      .align-left {
+        text-align: left; 
+      }
+
+      .clear {
+        clear: both; 
+      }
+
+      .mt0 {
+        margin-top: 0; 
+      }
+
+      .mb0 {
+        margin-bottom: 0; 
+      }
+
+      .preheader {
+        color: transparent;
+        display: none;
+        height: 0;
+        max-height: 0;
+        max-width: 0;
+        opacity: 0;
+        overflow: hidden;
+        mso-hide: all;
+        visibility: hidden;
+        width: 0; 
+      }
+
+      .powered-by a {
+        text-decoration: none; 
+      }
+
+      hr {
+        border: 0;
+        border-bottom: 1px solid #f6f6f6;
+        margin: 20px 0; 
+      }
+
+      /* -------------------------------------
+          RESPONSIVE AND MOBILE FRIENDLY STYLES
+      ------------------------------------- */
+      @media only screen and (max-width: 620px) {
+        table[class=body] h1 {
+          font-size: 28px !important;
+          margin-bottom: 10px !important; 
+        }
+        table[class=body] p,
+        table[class=body] ul,
+        table[class=body] ol,
+        table[class=body] td,
+        table[class=body] span,
+        table[class=body] a {
+          font-size: 16px !important; 
+        }
+        table[class=body] .wrapper,
+        table[class=body] .article {
+          padding: 10px !important; 
+        }
+        table[class=body] .content {
+          padding: 0 !important; 
+        }
+        table[class=body] .container {
+          padding: 0 !important;
+          width: 100% !important; 
+        }
+        table[class=body] .main {
+          border-left-width: 0 !important;
+          border-radius: 0 !important;
+          border-right-width: 0 !important; 
+        }
+        table[class=body] .btn table {
+          width: 100% !important; 
+        }
+        table[class=body] .btn a {
+          width: 100% !important; 
+        }
+        table[class=body] .color-bar {
+          width: 100% !important;
+        }
+        table[class=body] .img-responsive {
+          height: auto !important;
+          max-width: 100% !important;
+          width: auto !important; 
+        }
+      }
+
+      /* -------------------------------------
+          PRESERVE THESE STYLES IN THE HEAD
+      ------------------------------------- */
+      @media all {
+        .ExternalClass {
+          width: 100%; 
+        }
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+          line-height: 100%; 
+        }
+        .apple-link a {
+          color: inherit !important;
+          font-family: inherit !important;
+          font-size: inherit !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+          text-decoration: none !important; 
+        }
+        #MessageViewBody a {
+          color: inherit;
+          text-decoration: none;
+          font-size: inherit;
+          font-family: inherit;
+          font-weight: inherit;
+          line-height: inherit;
+        }
+        .btn-blue table td:hover,
+        .btn-gold table td:hover,
+        .btn-red table td:hover {
+          background-color: #385775 !important; 
+        }
+        .btn-blue a:hover,
+        .btn-gold a:hover,
+        .btn-red a:hover {
+          background-color: #385775 !important;
+        } 
+      }
+
+    </style>
+  </head>
+  <body class="">
+    <span class="preheader">|*MC:SUBJECT*|</span>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+          <div class="content">
+
+            <!-- START CENTERED WHITE CONTAINER -->
+            <table role="presentation" class="main">
+
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+                <td class="wrapper">
+                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td>
+                        <img src="https://damore-mckim.northeastern.edu/wp-content/uploads/2020/06/DMSB_monoN_RWW.jpg" alt="D'Amore-McKim logo banner" width="100%" style="border:0; outline:none; text-decoration:none; display:block;" />
+                        <h1>D'Amore-McKim Weekly</h1>
+                        <h3>*|DATE:F j, Y|*</h3>
+
+                        <!-- BEGIN MODULE: Dean's corner -->
+                        <table mc:repeatable mc:variant="dean's corner">
+                          <div style="background-color:#A4804A;" class="color-bar">
+                            <h2 mc:edit="dean's_corner_big" style="color:#FFFFFF">Dean's Corner</h2>
+                          </div>
+                          <h4 mc:edit="dean's_corner_title">A Title for Dean's Corner</h4>
+                          <p mc:edit="dean's_corner_subtitle">The Dean’s Corner series provides a first-person, informative narrative of exciting and important happenings at Northeastern University’s D’Amore-McKim School of Business written by Dunton Family Dean Raj Echambadi.</p>
+                          <table mc:edit="dean's_corner_bar" role="presentation" border="0" cellpadding="0" cellspacing="0" class="color-bar">
+                            <tbody>
+                              <tr>
+                                <td style="background-color:#A4804A;"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <p mc:edit="dean's_corner_preview">I'm baby keffiyeh waistcoat activated charcoal mixtape tbh, intelligentsia gentrify sartorial meggings yr art party.</p>
+                          <table mc:edit="dean's_corner_button" role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-gold">
+                            <tbody>
+                              <tr>
+                                <td align="left">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td> 
+                                          <a href="http://example.com" target="_blank">Read More</a> 
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </table>
+                        <!-- END MODULE: Dean's corner -->
+
+                        <!-- BEGIN MODULE: In the know -->
+                        <table mc:repeatable mc:variant="in the know">
+                          <div style="background-color:#006EB5; padding-left:12px" class="color-bar">
+                            <h2 mc:edit="in_the_know_big" style="color:#FFFFFF">In The Know</h2>
+                          </div>
+                          <tr>
+                            <td align="left" valign="top">
+                              <img
+                                src="https://gallery.mailchimp.com/9cbddd5fe584406c241340e46/images/9b94aa2f-ab6f-41af-971a-4c169d4d53ce.jpg"
+                                width="620" height="178" alt="" class="fullwidthimage" style="display:block" mc:edit="dmsb_img">
+                            </td>
+                          </tr>
+                          <h4 mc:edit="in_the_know_title">A Title for In The Know</h4>
+                          <p mc:edit="in_the_know_subtitle">Messenger bag activated charcoal vaporware try-hard meggings seitan. Helvetica portland letterpress gochujang copper mug. Aesthetic vice cornhole sriracha meggings thundercats.</p>
+                          <table mc:edit="in_the_know_bar" role="presentation" border="0" cellpadding="0" cellspacing="0" class="color-bar">
+                            <tbody>
+                              <tr>
+                                <td style="background-color:#006EB5;" class="color-bar"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <p mc:edit="in_the_know_preview">Freegan gluten-free fam keffiyeh bicycle rights drinking vinegar biodiesel authentic cred everyday carry brunch chartreuse disrupt hashtag. Vexillologist gastropub vinyl lyft chillwave pinterest schlitz, man bun PBR&B artisan yuccie gochujang cold-pressed flannel. Cray adaptogen fashion axe migas intelligentsia humblebrag, yuccie try-hard stumptown put a bird on it butcher live-edge. Beard master cleanse farm-to-table, butcher coloring book offal sartorial venmo trust fund. Forage keytar woke, vaporware gluten-free beard knausgaard neutra disrupt chartreuse. Typewriter irony palo santo, chillwave knausgaard artisan af cliche selvage migas.</p>
+                          <table mc:edit="in_the_know_button" role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-blue">
+                            <tbody>
+                              <tr>
+                                <td align="left">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td> 
+                                          <a href="http://example.com" target="_blank">Read More</a> 
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <h4 mc:edit="in_the_know_list_title">More to Know</h4>
+                          <table mc:edit="in_the_know_list" role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="arrow" width="4%" align="left">
+                                  &gt;  </td>
+                                <td width="96%">
+                                  <div mc:edit="in_the_know_list_item">
+                                    <a href="#" target="_blank">Can readers tell the difference between real news and 'native' advertising'?</a>
+                                    <p>Offal readymade unicorn kickstarter slow-carb meggings vice photo booth man braid forage vexillologist organic williamsburg etsy.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="arrow" width="4%" align="left">
+                                  &gt;  </td>
+                                <td width="96%">
+                                  <div mc:edit="in_the_know_list_item">
+                                    <a href="#" target="_blank">Can readers tell the difference between real news and 'native' advertising'?</a>
+                                    <p>Offal readymade unicorn kickstarter slow-carb meggings vice photo booth man braid forage vexillologist organic williamsburg etsy.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                        <!-- END MODULE: In the Know -->
+
+                        <!-- BEGIN MODULE: In the news -->
+                        <table mc:repeatable mc:variant="in the news">
+                          <div style="background-color:#D41B2C; padding-left:12px" class="color-bar">
+                            <h2 mc:edit="in_the_news_big" style="color:#FFFFFF">In The News</h2>
+                          </div>
+                            <h4 mc:edit="in_the_news_title">Alumni, Faculty, Staff in the news</h4>
+                          <p mc:edit="in_the_news_subtitle">Messenger bag activated charcoal vaporware try-hard meggings seitan. Helvetica portland letterpress gochujang copper mug. Aesthetic vice cornhole sriracha meggings thundercats.</p>
+                          <table mc:edit="in_the_news_bar" role="presentation" border="0" cellpadding="0" cellspacing="0" class="color-bar">
+                            <tbody>
+                              <tr>
+                                <td style="background-color:#D41b2c;"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <p mc:edit="in_the_news_preview">Freegan gluten-free fam keffiyeh bicycle rights drinking vinegar biodiesel authentic cred everyday carry brunch chartreuse disrupt hashtag. Vexillologist gastropub vinyl lyft chillwave pinterest schlitz, man bun PBR&B artisan yuccie gochujang cold-pressed flannel. Cray adaptogen fashion axe migas intelligentsia humblebrag, yuccie try-hard stumptown put a bird on it butcher live-edge. Beard master cleanse farm-to-table, butcher coloring book offal sartorial venmo trust fund. Forage keytar woke, vaporware gluten-free beard knausgaard neutra disrupt chartreuse. Typewriter irony palo santo, chillwave knausgaard artisan af cliche selvage migas.</p>
+                          <table mc:edit="in_the_news_button" role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-red">
+                            <tbody>
+                              <tr>
+                                <td align="left">
+                                  <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td> 
+                                          <a href="http://example.com" target="_blank">Read More</a> 
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <h4 mc:edit="in_the_news_list_title">More News</h4>
+                          <table mc:edit="in_the_news_list" role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="arrow" width="4%" align="left">
+                                  &gt;  </td>
+                                <td width="96%">
+                                  <div mc:edit="in_the_news_list_item">
+                                    <a href="#" target="_blank">Can readers tell the difference between real news and 'native' advertising'?</a>
+                                    <p>Offal readymade unicorn kickstarter slow-carb meggings vice photo booth man braid forage vexillologist organic williamsburg etsy.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="arrow" width="4%" align="left">
+                                  &gt;  </td>
+                                <td width="96%">
+                                  <div mc:edit="in_the_news_list_item">
+                                    <a href="#" target="_blank">Can readers tell the difference between real news and 'native' advertising'?</a>
+                                    <p>Offal readymade unicorn kickstarter slow-carb meggings vice photo booth man braid forage vexillologist organic williamsburg etsy.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                        <!-- END MODULE: In the news -->
+
+                        <!-- BEGIN MODULE: Committee and Department News -->
+                        <table mc:repeatable mc:variant="faculty news">
+                          <div style="background-color:#BADB00; padding-left:12px" class="color-bar">
+                            <h2 mc:edit="faculty_news_big" style="color:#000000">Committee and Department News</h2>
+                          </div>
+              
+                          <table mc:edit="faculty_news_list" role="presentation" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td class="arrow" width="4%" align="left">
+                                  &gt;  </td>
+                                <td width="96%">
+                                  <div mc:edit="faculty_news_list_item">
+                                    <a href="#" target="_blank">IDG Tech Tips</a>
+                                    <p>Offal readymade unicorn kickstarter slow-carb meggings vice photo booth man braid forage vexillologist organic williamsburg etsy.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="arrow" width="4%" align="left">
+                                  &gt;  </td>
+                                <td width="96%">
+                                  <div mc:edit="faculty_news_list_item">
+                                    <a href="#" target="_blank">Sustainability Corner</a>
+                                    <p>Offal readymade unicorn kickstarter slow-carb meggings vice photo booth man braid forage vexillologist organic williamsburg etsy.</p>
+                                  </div>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </table>
+                        <!-- END MODULE: In the news -->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+            <!-- END MAIN CONTENT AREA -->
+                </table>
+              </table>
+            </table>
+            <!-- END CENTERED WHITE CONTAINER -->
+
+            <!-- START FOOTER -->
+            <div class="footer">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="content-block">
+                    <span class="apple-link">D'Amore-McKim School of Business, Northeastern University</span>
+                    <br/><span class="apple-link">360 Huntington Ave., Boston, MA 02115</span>
+                    <br><a href="*|UNSUB|*">Unsubscribe</a>.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- END FOOTER -->
+
+          </div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
